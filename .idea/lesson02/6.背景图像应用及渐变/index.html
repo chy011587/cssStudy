@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        div{
+            width: 1000px;
+            height: 700px;
+            border: 1px solid red;
+            background-image: url("3.webp");
+            /* 默认平铺*/
+        }
+        .div2{
+            background-repeat: repeat-x;
+            /*水平平铺*/
+        }
+        .div3{
+            background-repeat: repeat-y;
+            /*垂直平铺*/
+        }
+        .div4{
+            background-repeat: no-repeat;
+            /*不要平铺效果*/
+        }
+    </style>
+
+</head>
+<body>
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+<div class="div4"></div>
+</body>
+</html>

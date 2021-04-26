@@ -1,0 +1,33 @@
+.nav{
+    width: 300px;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 35px;
+    /* background: 颜色 图片地址 横坐标 纵坐标 平铺方式 */
+    /*background: darkgray url("../6.背景图像应用及渐变/6.jpg") 267px 3px no-repeat;*/
+    background-color: #4158D0;
+    background-image: linear-gradient(28deg, #4158D0 0%, #C850C0 48%, #FFCC70 100%);
+
+}
+
+ul{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+ul li{
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+}
+a{
+    color: mediumorchid;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover{
+    color: mediumslateblue;
+}
